@@ -140,6 +140,7 @@ body {
     top: 0;
     width: 100%;
     background-color: var(--bg-white);
+    border-radius: 0 0 15px 15px;
     border-bottom: 1px solid var(--border-light);
     box-shadow: var(--shadow-sm);
     z-index: 1000;
@@ -261,7 +262,7 @@ body {
     color: var(--text-dark);
     cursor: pointer;
     padding: 8px 12px;
-    border-radius: 8px;
+    border-radius: 10px;
     transition: var(--transition);
     display: flex;
     align-items: center;
@@ -1223,7 +1224,8 @@ body.dark-mode .footer-bottom {
         width: 100%;
         text-align: center;
         transition: var(--transition);
-        border-top: 1px solid var(--border-light);
+        border: 1px solid var(--border-light);
+        border-radius: 15px;
         box-shadow: var(--shadow-md);
         padding: 20px 0;
         gap: 0;
@@ -1400,7 +1402,7 @@ body.dark-mode .footer-bottom {
     width: 60px;
     height: 60px;
     background: var(--primary-gradient);
-    border-radius: 50%;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
