@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendra Nur Yuliadi</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%238b5cf6;stop-opacity:1' /><stop offset='100%' style='stop-color:%23ec4899;stop-opacity:1' /></linearGradient></defs><text x='50' y='70' font-size='80' font-weight='bold' text-anchor='middle' fill='url(%23grad)' font-family='Arial'>R</text></svg>">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <!-- <img src="Images/logo.jpg" alt="RNY Logo" class="navbar-logo-image"> -->
+                <a href="#home" class="logo-text">レンドラ</a>
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skill" class="nav-link">Skill</a></li>
+                <li><a href="#hobby" class="nav-link">Hobby</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1 class="home-title">
+                        Halo, Saya <span class="gradient-text">Rendra Nur Yuliadi</span> saya seorang, <span id="typed-role" class="typed" aria-live="polite"></span>
+                    </h1>
+                    <p class="home-description">
+                        Saya adalah developer yang passionate dalam menciptakan <span class="gradient-text">solusi web modern</span> dengan teknologi terkini. Menggabungkan keahlian di bidang frontend, artificial intelligence, dan data analysis untuk memberikan hasil yang <span class="gradient-text">luar biasa</span>.
+                    </p>
+                    <div class="home-buttons">
+                        <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+                        <a href="#" class="btn btn-secondary">Download CV</a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="image-container">
+                        <img src="Images/rendra-home.jpeg" alt="Rendra Nur Yuliadi" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content about-layout">
+                <div class="about-image">
+                    <img src="/Images/rendra-about.jpeg" alt="Rendra Nur Yuliadi" class="about-photo">
+                </div>
+
+                <div class="about-cards">
+                    <div class="about-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Frontend Development</h3>
+                        <p>Membuat interface yang indah, responsive, dan user-friendly menggunakan HTML, CSS, JavaScript, dan framework modern seperti React dan Vue.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Artificial Intelligence</h3>
+                        <p>Implementasi machine learning dan deep learning untuk solusi yang intelligent dan adaptive dalam berbagai aplikasi bisnis.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-chart-bar"></i>
+                        <h3>Data Analysis</h3>
+                        <p>Menganalisis data kompleks untuk menghasilkan insights yang actionable dan membantu pengambilan keputusan strategis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <h2 class="section-title">Pendidikan</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-marker"></div>
+                    <div class="education-content">
+                        <div class="education-logo"><i class="fas fa-book-open"></i></div>
+                        <h3>SMP Negeri 3 Sumedang</h3>
+                        <p class="education-school">Sekolah Menengah Pertama</p>
+                        <p class="education-year">2018 - 2021</p>
+                        <p class="education-desc">Menyelesaikan pendidikan menengah pertama dengan prestasi akademik yang baik dan aktif dalam berbagai kegiatan ekstrakurikuler.</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-marker"></div>
+                    <div class="education-content">
+                        <div class="education-logo"><i class="fas fa-laptop-code"></i></div>
+                        <h3>SMK Negeri 1 Sumedang</h3>
+                        <p class="education-school">Sekolah Menengah Kejuruan - Teknik Informatika</p>
+                        <p class="education-year">2021 - 2024</p>
+                        <p class="education-desc">Fokus pada pembelajaran teknologi informasi, networking, dan sistem komputer dengan praktik langsung di laboratorium modern.</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-marker"></div>
+                    <div class="education-content">
+                        <div class="education-logo"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Universitas Sebelas April Sumedang</h3>
+                        <p class="education-school">Teknik Informatika / Teknologi Informasi</p>
+                        <p class="education-year">2024 - Sekarang</p>
+                        <p class="education-desc">Mempelajari web development, data science, artificial intelligence, dan sistem informasi dengan fokus pada practical skills dan real-world projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section id="skill" class="section skill-section">
+        <div class="container">
+            <h2 class="section-title">Keahlian</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI & Data Science</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Python Data</span>
+                        <span class="skill-tag">Data Visualization</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobby Section -->
+    <section id="hobby" class="section hobby-section">
+        <div class="container">
+            <h2 class="section-title">Hobi & Minat</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Gaming</h3>
+                    <p>Menikmati bermain game dan mempelajari game design serta mechanics yang menarik.</p>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-music"></i>
+                    <h3>Musik</h3>
+                    <p>Mendengarkan berbagai genre musik dan memahami produksi musik digital modern.</p>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Membaca</h3>
+                    <p>Membaca artikel teknologi, buku programming, dan self-improvement untuk terus belajar.</p>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-film"></i>
+                    <h3>Video Editing</h3>
+                    <p>Membuat dan mengedit konten video dengan berbagai teknik dan effects menarik.</p>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>Fotografi</h3>
+                    <p>Mengabadikan momen-momen berharga melalui fotografi dengan perspektif unik.</p>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-keyboard"></i>
+                    <h3>Coding</h3>
+                    <p>Menghabiskan waktu untuk menyelesaikan project coding yang challenging dan inovatif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telepon</h3>
+                            <p><a href="tel:+62812345678">+62 812 345 678</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Lokasi</h3>
+                            <p>Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h3>Website</h3>
+                            <p><a href="#">www.rendranur.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nama Anda" required>
+                    <input type="email" placeholder="Email Anda" required>
+                    <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tentang</h3>
+                    <p>Rendra Nur Yuliadi adalah frontend engineer, AI engineer, dan data analyst yang passionate dalam menciptakan solusi teknologi modern dan innovative.</p>
+                    <div class="footer-social">
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigasi</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#hobby">Hobby</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Skill Categories</h3>
+                    <ul>
+                        <li><a href="#skill">Frontend Development</a></li>
+                        <li><a href="#skill">Backend Development</a></li>
+                        <li><a href="#skill">AI & Machine Learning</a></li>
+                        <li><a href="#skill">Data Analysis</a></li>
+                        <li><a href="#skill">Database Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Project Categories</h3>
+                    <ul>
+                        <li><a href="#">Web Application</a></li>
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Data Visualization</a></li>
+                        <li><a href="#">AI Solution</a></li>
+                        <li><a href="#">Cloud Project</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Sumber Belajar</h3>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Tutorial</a></li>
+                        <li><a href="#">Webinar</a></li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rendra Nur Yuliadi. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Contact Support</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp CTA Button -->
+    <a href="https://wa.me/6281292731092" class="whatsapp-btn" target="_blank" title="Chat dengan saya di WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Hubungi via WhatsApp</span>
+    </a>
+
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
